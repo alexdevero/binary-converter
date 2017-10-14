@@ -1,0 +1,44 @@
+{
+  "name": "binary-converter",
+  "version": "1.0.0",
+  "description": "A simple utility to convert text and numbers to binary code.",
+  "main": "main.js",
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0",
+    "yarn": ">=0.27.x"
+  },
+  "scripts": {
+    "start": "set NODE_ENV=development && node ./src/main.js",
+    "build": "set NODE_ENV=production && babel ./src/main.js --out-file ./dist/main.js",
+    "test": "set NODE_ENV=test && eslint ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexdevero/binary-converter.git"
+  },
+  "keywords": [
+    "alphabet",
+    "binary",
+    "converter",
+    "language",
+    "text",
+    "numbers",
+    "javascript",
+    "open",
+    "open-source",
+    "source"
+  ],
+  "author": "Alex Devero <deveroalex@gmail.com> (http://github.com/alexdevero)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexdevero/binary-converter/issues"
+  },
+  "homepage": "https://github.com/alexdevero/binary-converter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.8.0"
+  }
+}
