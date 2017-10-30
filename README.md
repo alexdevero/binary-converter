@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <a href="https://david-dm.org/alexdevero/binary-converter"><img alt="Dependency Status" src="https://david-dm.org/alexdevero/binary-converter.svg?style=flat"></a>
   <a href="https://david-dm.org/alexdevero/binary-converter?type=dev"><img alt="devDependency Status" src="https://david-dm.org/alexdevero/binary-converter/dev-status.svg?style=flat"></a>
   <a href="https://alexdevero.com"><img alt="Built by DEVERO" src="https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320"></a>
@@ -17,6 +17,7 @@
 A simple tool for converting text and numbers to binary.
 
 ### Table of contents
+
 * [Install](#install)
 * [Usage](#usage)
 * [Example](#example)
@@ -25,25 +26,27 @@ A simple tool for converting text and numbers to binary.
 * [License](#license)
 
 ## Install
+
 ```
-$ npm install binary-converter
+npm install binary-converter
 ```
 Or, if you prefer using Yarn:
 ```
-$ yarn install binary-converter
+yarn install binary-converter
 ```
-Or you can also clone this repo
+You can also clone this repo
 ```
-$ git clone https://github.com/alexdevero/binary-converter.git
+git clone https://github.com/alexdevero/binary-converter.git
 ```
 
 ## Usage
+
 ```
-$ npm run start
+npm run start
 ```
 or
 ```
-$ yarn run start
+yarn run start
 ```
 
 ## Support this project
