@@ -7,9 +7,9 @@
 </p>
 
 <p align="center">
-  <a href="#"><img alt="Downloads last week" src="https://img.shields.io/npm/dw/localeval.svg"></a>
-  <a href="#"><img alt="Downloads last moth" src="https://img.shields.io/npm/dm/localeval.svg"></a>
-  <a href="#"><img alt="Downloads last year" src="https://img.shields.io/npm/dy/localeval.svg"></a>
+  <a href="https://www.npmjs.com/package/binary-converter"><img alt="Downloads last week" src="https://img.shields.io/npm/dw/localeval.svg"></a>
+  <a href="https://www.npmjs.com/package/binary-converter"><img alt="Downloads last moth" src="https://img.shields.io/npm/dm/localeval.svg"></a>
+  <a href="https://www.npmjs.com/package/binary-converter"><img alt="Downloads last year" src="https://img.shields.io/npm/dy/localeval.svg"></a>
 </p>
 
 # Binary converter
