@@ -6,11 +6,11 @@
   <a href="#"><img alt="Current release" src="https://img.shields.io/github/release/alexdevero/binary-converter.svg"></a>
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <a href="#"><img alt="Downloads last week" src="https://img.shields.io/npm/dw/localeval.svg"></a>
   <a href="#"><img alt="Downloads last moth" src="https://img.shields.io/npm/dm/localeval.svg"></a>
   <a href="#"><img alt="Downloads last year" src="https://img.shields.io/npm/dy/localeval.svg"></a>
-</p> -->
+</p>
 
 # Binary converter
 
