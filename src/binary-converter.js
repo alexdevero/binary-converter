@@ -55,3 +55,40 @@ const alphabetUpper = {
   'Y': '01011001',
   'Z': '01011010'
 }
+
+// Convert ipnut to binary
+const convertInput = (text, useAdvanced = 'n') => {
+  for (let i = 0; i < text.length; i++) {
+    let alphabet
+    let letter = text[i]
+
+    if (useAdvanced.toLowerCase() === 'y') {
+      // Use upper case alphabet
+      alphabet = alphabetLower[letter] ? alphabetLower[letter] : alphabetUpper[letter]
+    } else {
+      // Use lower case alphabet
+      alphabet = alphabetLower[letter]
+    }
+
+    if (alphabet) {
+      text = text.replace(text[i], alphabet)
+    }
+  }
+
+  // Show the result in console
+  console.log(text)
+
+  return text
+}
+
+/*const convertInputReverse = (text) => {
+  alphabetReversed.map((x) => {
+    text = text.replace(x[0], x[1])
+  })
+
+  console.log(text)
+
+  return text
+}*/
+
+module.exports = { convertInput/*, convertInputReverse*/ }
