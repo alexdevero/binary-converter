@@ -1,6 +1,6 @@
 {
   "name": "binary-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility to convert text and numbers to binary code.",
   "main": "main.js",
   "engines": {
